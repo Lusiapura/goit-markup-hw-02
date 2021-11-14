@@ -1,0 +1,50 @@
+:root {
+  --primary-text-color: #212121;
+  --title-text-color: #757575;
+  --accent-color: #2196f3;
+  --white-color: #ffffff;
+}
+
+body {
+  background-color: E5E5E5;
+  color: var(--primary-text-color);
+}
+
+.list {
+  list-style: none;
+}
+
+/* цвет основного текста #212121 */
+/* вторичный цвет текста #757575 */
+/* белый цвет #FFFFFF */
+/* голубой цвет #2196F3 */
+
+/* site nav */
+.site-nav .link {
+  color: var(--primary-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+/* auth nav */
+.auth-nav .link {
+  color: var(--primary-text-color);
+}
+
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+  color: var(--accent-color);
+}
+
+/* Hero */
+.hero-title {
+  color: var(--white-color);
+  background-color: #2f303a;
+}
+
+.section-title {
+  color: var(--primary-text-color);
+}
