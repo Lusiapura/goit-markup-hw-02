@@ -3,11 +3,12 @@
   --title-text-color: #757575;
   --accent-color: #2196f3;
   --white-color: #ffffff;
+  --background-button: #f5f4fa;
 }
 
 body {
   background-color: E5E5E5;
-  color: var(--primary-text-color);
+  color: var(--title-text-color);
 }
 
 .list {
@@ -47,4 +48,28 @@ body {
 
 .section-title {
   color: var(--primary-text-color);
+}
+
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+.button {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
+
+.button-second {
+  color: var(--primary-text-color);
+  background-color: var(--background-button);
+}
+
+.button-second:hover,
+.button-second:focus {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
+footer {
+  background-color: #2f303a;
+  color: var(--white-color);
 }
