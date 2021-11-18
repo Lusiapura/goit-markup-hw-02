@@ -30,6 +30,15 @@ body {
   color: var(--accent-color);
 }
 
+.logo {
+  color: var(--accent-color);
+  direction: none;
+}
+
+.site-nav > .logo-style {
+  color: var(--primary-text-color);
+}
+
 /* auth nav */
 .auth-nav .link {
   color: var(--primary-text-color);
@@ -69,7 +78,7 @@ body {
   color: var(--white-color);
   background-color: var(--accent-color);
 }
-footer {
+.footer {
   background-color: #2f303a;
   color: var(--white-color);
 }
