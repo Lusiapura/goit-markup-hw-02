@@ -26,7 +26,6 @@ body {
 /* site nav */
 .site-nav .link {
   color: var(--primary-text-color);
-  text-decoration: none;
 }
 
 .site-nav .link:hover,
@@ -37,11 +36,18 @@ body {
 .logo {
   color: var(--accent-color);
   text-decoration: none;
+  font-family: Raleway, sans-serif;
+  font-style: 700;
+  font-size: 26px;
+  font-size: 1.19;
 }
 
 .iteam {
   color: var(--primary-text-color);
-  text-decoration: none;
+  font-family: Raleway, sans-serif;
+  font-style: 700;
+  font-size: 26px;
+  font-size: 1.19;
 }
 
 /* auth nav */
@@ -76,11 +82,13 @@ body {
 .button {
   color: var(--white-color);
   background-color: var(--accent-color);
+  cursor: pointer;
 }
 
 .button-second {
   color: var(--primary-text-color);
   background-color: var(--background-button);
+  cursor: pointer;
 }
 
 .button-second:hover,
@@ -96,10 +104,19 @@ body {
   color: var(--title-text-color);
 }
 
+.portfolio {
+  text-decoration: none;
+}
+
 .footer {
   background-color: #2f303a;
   color: var(--white-color);
   text-decoration: none;
+}
+
+.address:hover,
+.address:focus {
+  color: var(--accent-color);
 }
 
 .logos {
