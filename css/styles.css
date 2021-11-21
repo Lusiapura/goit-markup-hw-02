@@ -16,7 +16,6 @@ body {
 
 .list {
   list-style: none;
-  text-decoration: none;
 }
 
 /* цвет основного текста #212121 */
@@ -27,6 +26,11 @@ body {
 /* site nav */
 .site-nav .link {
   color: var(--primary-text-color);
+
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.17;
 }
 
 .site-nav .link:hover,
@@ -40,19 +44,22 @@ body {
   text-decoration: none;
   font-family: Raleway, sans-serif;
   font-size: 26px;
-  font-weight: 1.19;
-  font-style: 700;
+  font-weight: 700;
+  line-height: 1.19;
 }
 
 .iteam {
   color: var(--primary-text-color);
-  font-family: Raleway, sans-serif;
 }
 
 /* auth nav */
 .auth-nav .link {
   color: var(--primary-text-color);
   text-decoration: none;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.17;
 }
 
 .auth-nav .link:hover,
@@ -64,14 +71,28 @@ body {
 .hero-title {
   color: var(--white-color);
   background-color: #2f303a;
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
 }
 
 .section-title {
   color: var(--primary-text-color);
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
 }
 
 .title {
   color: #212121;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.17;
 }
 
 .site-nav .link.current {
@@ -82,6 +103,11 @@ body {
   color: var(--white-color);
   background-color: var(--accent-color);
   cursor: pointer;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  text-align: center;
 }
 
 .button-second {
