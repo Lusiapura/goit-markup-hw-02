@@ -12,6 +12,9 @@ body {
   color: var(--title-text-color);
 
   font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
 }
 
 .list {
@@ -45,11 +48,16 @@ body {
   font-family: Raleway, sans-serif;
   font-size: 26px;
   font-weight: 700;
-  line-height: 1.19;
+  line-height: 1.17;
 }
 
 .iteam {
   color: var(--primary-text-color);
+
+  font-family: Oleo Script, sans-serif;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 1.38;
 }
 
 /* auth nav */
@@ -99,6 +107,19 @@ body {
   color: var(--accent-color);
 }
 
+.section-team .title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.17;
+  text-align: center;
+}
+.section-team .text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.17;
+  text-align: center;
+}
+
 .button {
   color: var(--white-color);
   background-color: var(--accent-color);
@@ -114,6 +135,11 @@ body {
   color: var(--primary-text-color);
   background-color: var(--background-button);
   cursor: pointer;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
 }
 
 .button-second:hover,
@@ -123,10 +149,18 @@ body {
 }
 .project {
   color: var(--primary-text-color);
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
 }
 
 .work {
   color: var(--title-text-color);
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
 }
 
 .portfolio {
@@ -146,6 +180,11 @@ body {
 
 .logos {
   color: var(--white-color);
+
+  font-family: Oleo Script, sans-serif;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 1.38;
 }
 
 .address {
