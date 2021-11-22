@@ -18,6 +18,7 @@ body {
 
 .list {
   list-style: none;
+  font-style: normal;
 }
 
 /* цвет основного текста #212121 */
@@ -35,8 +36,13 @@ body {
   line-height: 1.17;
 }
 
-.site-nav .link:hover,
-.site-nav .link:focus {
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.link-list:hover,
+.link-list:focus {
   color: var(--accent-color);
 }
 
@@ -60,17 +66,21 @@ body {
 
 /* auth nav */
 .auth-nav .link {
-  color: var(--primary-text-color);
+  color: var(--title-text-color);
   text-decoration: none;
 
-  font-weight: 500;
   font-size: 14px;
-  line-height: 1.17;
+  line-height: 1.14;
+  font-weight: 500;
 }
 
-.auth-nav .link:hover,
-.auth-nav .link:focus {
-  color: var(--accent-color);
+.link-list {
+  color: var(--title-text-color);
+  text-decoration: none;
+
+  font-size: 14px;
+  line-height: 1.14;
+  font-weight: 500;
 }
 
 /* Hero */
